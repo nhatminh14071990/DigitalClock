@@ -7,19 +7,39 @@
 //
 
 import UIKit
+import Foundation
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        self.updateTimeClock();
+        
+        Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(ViewController.updateTimeClock), userInfo: nil, repeats: true)
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBOutlet weak var labelAMPM: UILabel!
+    
+    @IBOutlet weak var labelTime: UILabel!
+    
+    func updateTimeClock()
+    {
+        let date = Date()
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "HH"
+        let hour = dateFormatter.string(from: date)
+        
+        dateFormatter.dateFormat = "hh:mm:ss"
+        let time = dateFormatter.string(from: date);
+        
+        labelTime.text = time;
+        labelAMPM.text = "AM";
+        if(Int(hour)! >= 12){
+            labelAMPM.text = "PM";
+        }
+
     }
-
-
 }
 

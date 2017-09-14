@@ -12,6 +12,8 @@
 		83ECC2F21F6A5EC10022C6A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83ECC2F01F6A5EC10022C6A0 /* Main.storyboard */; };
 		83ECC2F41F6A5EC10022C6A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83ECC2F31F6A5EC10022C6A0 /* Assets.xcassets */; };
 		83ECC2F71F6A5EC10022C6A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83ECC2F51F6A5EC10022C6A0 /* LaunchScreen.storyboard */; };
+		83ECC3011F6A5F310022C6A0 /* BackGround.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83ECC2FF1F6A5F310022C6A0 /* BackGround.jpg */; };
+		83ECC3021F6A5F310022C6A0 /* Let's go Digital Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 83ECC3001F6A5F310022C6A0 /* Let's go Digital Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		83ECC2F31F6A5EC10022C6A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83ECC2F61F6A5EC10022C6A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83ECC2F81F6A5EC10022C6A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83ECC2FF1F6A5F310022C6A0 /* BackGround.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = BackGround.jpg; sourceTree = "<group>"; };
+		83ECC3001F6A5F310022C6A0 /* Let's go Digital Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Let's go Digital Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +64,18 @@
 				83ECC2F31F6A5EC10022C6A0 /* Assets.xcassets */,
 				83ECC2F51F6A5EC10022C6A0 /* LaunchScreen.storyboard */,
 				83ECC2F81F6A5EC10022C6A0 /* Info.plist */,
+				83ECC2FE1F6A5EFB0022C6A0 /* Resource */,
 			);
 			path = DigitalClock;
+			sourceTree = "<group>";
+		};
+		83ECC2FE1F6A5EFB0022C6A0 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				83ECC2FF1F6A5F310022C6A0 /* BackGround.jpg */,
+				83ECC3001F6A5F310022C6A0 /* Let's go Digital Regular.ttf */,
+			);
+			name = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,7 +138,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				83ECC2F71F6A5EC10022C6A0 /* LaunchScreen.storyboard in Resources */,
+				83ECC3011F6A5F310022C6A0 /* BackGround.jpg in Resources */,
 				83ECC2F41F6A5EC10022C6A0 /* Assets.xcassets in Resources */,
+				83ECC3021F6A5F310022C6A0 /* Let's go Digital Regular.ttf in Resources */,
 				83ECC2F21F6A5EC10022C6A0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
